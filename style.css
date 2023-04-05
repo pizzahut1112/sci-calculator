@@ -1,0 +1,98 @@
+body {
+  background: #525556;  
+  text-align: center;
+  color: white;
+ 
+}
+
+.calculator {
+width: 490px;
+height: 490px;
+background-color: #0b0b09;
+padding: 10px;
+border-radius: 10px;
+
+}
+
+
+input[type=text] {
+width: 490px;
+    font-size: 16px;
+    height: 25px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #fafafa;
+    color: #121111;
+    padding: 0 0px 0 5px;
+    margin: 0 0px 10px 0px;
+
+}
+
+.calc-buttons {
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.button {
+   margin: 3px;
+width: 63px;
+border: none;
+height: 25px;
+border-radius: 4px;
+color: #080808;
+cursor: pointer;
+}
+
+button:hover {
+  background-color: #d65757;
+  transition: .2s;
+}
+
+
+
+
+.functions-one {
+    width: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.functions-two {
+width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.triggers {
+    background-color: #ee9a1b;
+}
+
+
+
+.numbers {
+    background-color: #c2bdbd;
+}
+
+.basic-stuff {
+    background-color: #678ea2;
+    font-weight: bold;
+}
+
+.complex-stuff {
+    background-color: #71b796;
+    font-weight: bold;
+}
+
+.temperature{
+  background-color: pink;
+}
+
+p{
+  text-align:left
+}
+
